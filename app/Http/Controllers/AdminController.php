@@ -28,11 +28,11 @@ class AdminController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.home');
     }
 
-    public function update(UpdateVehicle $request)
-    {
-        //
-    }
+    // public function update(UpdateVehicle $request)
+    // {
+    //     //
+    // }
 }
